@@ -1,0 +1,141 @@
+body{ 
+    background-color: antiquewhite;
+}
+
+.todo{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    
+ }
+
+main{
+    width: 15%;
+    height: 15%;
+     
+}
+
+main a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    list-style: none;
+    padding: 15px 60px;
+    text-decoration: none;
+    font-weight: bold;
+    flex-direction: column;
+    writing-mode: vertical-lr;
+    font-size: 30px;
+    letter-spacing: 2px ;   
+}
+
+main a:hover{
+    color: rgb(51, 130, 199);
+}
+
+img{
+    width: 8em;
+    height: 8em;   
+}
+
+
+.contenedor1{
+    margin: auto;
+    background-color: #000;
+    width: 50%;
+    height: 65%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;   
+}
+
+.contenedor1{
+    box-shadow: 10px 10px 7px  #000;
+}
+.contenedor1 img{
+    width:100%;
+    height: 100%;
+
+}
+
+.titulo{
+    text-align: center;
+}
+
+#apps {
+    background-color: #24232531;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: none;
+   
+  }
+  
+  #apps h2 {
+    color: #000000;
+ 
+  }
+  
+
+
+  button{
+    width: 90px;
+    height: 45px;
+    border-radius: 200px;
+   
+  }
+
+  button:hover{
+    box-shadow: 5px 5px 5px 1px rgba(70, 86, 86, 0.713);
+  }
+
+ #apps .carta {
+  background-position: center center;
+  background-size: cover;
+  border-radius: 15;
+  padding: 25px;
+  margin: 5px;
+}
+
+.carta img{
+  height: 65%;
+  width: 90%;
+  border-radius: 10px;  
+ 
+}
+
+#apps .carta1 {
+  border-radius: 15;
+  padding: 20px;
+  margin: 20px;
+  background-color: #8a8686; 
+}
+
+.carta1 img{
+  height: 76%;
+  width: 95%;
+  border-radius: 10px;  
+}
+
+  @media (min-width: 800px) {
+    header .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    header nav {
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+    }
+  
+    #apps .programas {
+      display: flex;
+      justify-content: center;
+    }
+  
+    #apps .carta {
+      padding: 50px;
+    }
+  }
+  
